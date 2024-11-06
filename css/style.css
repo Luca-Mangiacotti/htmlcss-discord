@@ -142,7 +142,38 @@ nav{
     font-weight: 700;
     font-style: normal;
   }
+    
+  .headerbottom h1{
+    font-size: 65px;
+    padding-bottom: 60px;
+}
+
+.headerbottom h3{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
   
+main{
+    color: #23272a;
+}
+
+#sezione1 h2,
+#sezione2 h2,
+#sezione3 h2,
+#sezione4 h2{
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+#sezione1 h4,
+#sezione2 h4,
+#sezione3 h4,
+#sezione4 h4{
+    font-size: 15px;
+    line-height: 25px;
+    
+}
 
 /*----------------------
         HEADER SET          
@@ -195,18 +226,6 @@ header{
     padding-top: 100px;
 }
 
-.headerbottom h1{
-    font-size: 65px;
-    padding-bottom: 60px;
-}
-
-.headerbottom h3{
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-    padding-bottom: 30px;
-}
-
 .headcont .logo,
 .headcont nav,
 .headcont .login{
@@ -252,7 +271,18 @@ main #sezione1,
 main #sezione2,
 main #sezione3{
     display: flex;
-    padding: 50px 0px;
+    padding-top: 160px;
+    padding-bottom: 200px;
+    justify-content: center;
+    gap: 100px;
+}
+
+main #sezione4{
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-bottom: 200px;
+    align-items: center;
 }
 
 #sezione1 .col1,
@@ -266,15 +296,6 @@ main #sezione3{
 #sezione3 .col2{
     width: 40%;
 }
-
-main #sezione4{
-    padding: 50px 0px;
-}
-
-#sezione4 .content{
-    width: 100%;
-}
-
 
 /*----------------------
         FOOTER         
