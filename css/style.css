@@ -149,14 +149,20 @@ nav{
 -----------------------*/
 header{
     color: white;
+    background-color: transparent;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .headertop{
     padding: 25px 0px;
-    background-color: #3161e0;
 }
 
 .headerbottom{
-    padding: 30px 0px;
+    padding-top: 30px;
+    padding-bottom: 160px;
 }
 
 .headcont .logo,
@@ -181,14 +187,29 @@ header{
     display: flex;
     align-items: center;
 }
+
+
 .dowcont{
     width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.headerbottom h1{
+    font-size: 65px;
+    padding-bottom: 60px;
+}
+
+.headerbottom h3{
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 30px;
 }
 
 .headcont .logo,
 .headcont nav,
-.headcont .login,
-.headerbottom .dowcont{
+.headcont .login{
     padding: 6px;
 }
 
@@ -197,6 +218,31 @@ header{
     padding: 14px 16px;
     border-radius: 40%;
     border: transparent;
+}
+
+.headerbottom .bottonihead{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.bottonihead .button1{
+    font-size: 15px;
+    border: transparent;
+    background-color: white;
+    padding: 14px 20px;
+    border-radius:40%;
+}
+
+.bottonihead .button2{
+    color: inherit;
+    font-size: 15px;
+    border: transparent;
+    background-color: #23272a;
+    padding: 14px 20px;
+    border-radius: 40%;
+
 }
 /*----------------------
         MAIN         
