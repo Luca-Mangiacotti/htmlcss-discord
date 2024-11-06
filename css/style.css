@@ -1,0 +1,237 @@
+/*----------------------
+         RESET          
+-----------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------
+        DEBUG       
+-----------------------*/
+
+
+.debug .headertop{
+    background-color: #add8e6;
+    max-height: 80px;
+}
+
+
+.debug .headerbottom{
+    background-color: #00008b;
+    max-height: 500px;
+}
+
+.debug .headcont{
+    background-color: #daa520;
+}
+
+.debug .headcont .logo,
+.debug .headcont nav,
+.debug .headcont .login,
+.debug .headerbottom .dowcont{
+    padding: 6px;
+    border: 1px dashed black;
+}
+
+.debug .dowcont{
+    background-color: #ee82ee;
+    min-height: 400px;
+}
+
+.debug .col1{
+    background-color: #1e90ff;
+   
+}
+
+.debug .col2,
+.debug .footer-top .col2{
+    background-color: #ffc0cb;
+    
+}
+
+.debug .col1,
+.debug .col2{
+    min-height: 500px;
+    border: 1px dashed black;
+}
+
+.debug #sezione1,
+.debug #sezione2,
+.debug #sezione3{
+    min-height: 600px;
+}
+
+.debug #sezione4{
+    height: 1000px;
+}
+.debug .content{
+    background-color: #228b22;
+    min-height: 900px;
+    border: 1px dashed black;
+}
+
+
+.debug .footer-top > .container {
+    min-height: 500px;
+}
+
+.debug .footer-top .col2 > .colInt {
+    border: 1px dashed white;
+}
+
+.debug .footer-top .col1{
+    background-color: #f08080;
+}
+
+.debug .footer-top .col2{
+    background-color: #20b2aa;
+}
+
+.debug .footer-bottom > .container {
+    background-color: #7fffd4;
+}
+
+.debug .footer-bottom .logo,
+.debug .footer-bottom .btn {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
+/*----------------------
+        SET GENERALE         
+-----------------------*/
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grayback{
+    background-color: #d3d3d3;
+    max-height: 1000px;
+}
+
+/*----------------------
+        HEADER SET          
+-----------------------*/
+
+.headertop{
+    padding: 25px 0px;
+}
+
+.headerbottom{
+    padding: 30px 0px;
+}
+
+.headcont .logo,
+.headcont .login{
+    width: 20%;
+}
+
+
+.headcont nav{
+    flex-grow: 1;
+}
+
+nav{
+    text-align: center;
+}
+
+
+.login{
+    text-align: right;
+}
+
+
+.headertop .headcont{
+    display: flex;
+}
+.dowcont{
+    width: 80%;
+}
+
+.headcont .logo,
+.headcont nav,
+.headcont .login,
+.headerbottom .dowcont{
+    padding: 6px;
+}
+
+/*----------------------
+        MAIN         
+-----------------------*/
+
+main #sezione1, 
+main #sezione2,
+main #sezione3{
+    display: flex;
+    padding: 50px 0px;
+}
+
+#sezione1 .col1,
+#sezione2 .col2,
+#sezione3 .col1{
+    width: 60%;
+}
+
+#sezione1 .col2,
+#sezione2 .col1,
+#sezione3 .col2{
+    width: 40%;
+}
+
+main #sezione4{
+    padding: 50px 0px;
+}
+
+#sezione4 .content{
+    width: 100%;
+}
+
+
+/*----------------------
+        FOOTER         
+-----------------------*/
+footer{
+    background-color:#23272a ;
+}
+
+.footer-top {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-top > .container {
+    display: flex;
+}
+
+.footer-top .col1 {
+    width: 30%;
+}
+.footer-top .col2 {
+    width: 70%;
+    display: flex;
+}
+
+.footer-top .col2 > .colInt {
+    width: 25%;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid white;
+}
+
+.footer-bottom > .container {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .logo,
+.footer-bottom .btn {
+    padding: 6px 14px;
+}
