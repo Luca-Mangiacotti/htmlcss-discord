@@ -99,6 +99,17 @@
     background-color: #ffb6c1;
 }
 
+#sezione4 .btn,
+.footer-bottom .btn{
+    color: #ffff;
+    font-size: 15px;
+    border: transparent;
+    background-color: #8ea1e1;
+    padding: 14px 20px;
+    border-radius: 20px;
+
+}
+
 /*----------------------
         SET GENERALE         
 -----------------------*/
@@ -111,7 +122,7 @@
 
 .grayback{
     background-color: #d3d3d3;
-    max-height: 1000px;
+    max-height: 100%;
 }
 
 /*----------------------
@@ -158,11 +169,19 @@ nav{
 main{
     color: #23272a;
 }
+footer{
+    color: #ffff;
+}
+
+footer p{
+    line-height: 25px;
+}
 
 #sezione1 h2,
 #sezione2 h2,
 #sezione3 h2,
-#sezione4 h2{
+#sezione4 h2,
+footer h2{
     font-size: 55px;
     padding-bottom: 30px;
 }
@@ -173,6 +192,31 @@ main{
     font-size: 15px;
     line-height: 25px;
     
+}
+
+#sezione4 h3{
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom:20px;
+}
+
+footer h3{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+footer h2,
+footer h3{
+    padding-top: 100px;
+    color:#7289da;
+
+}
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    line-height: 25px;
 }
 
 /*----------------------
@@ -235,7 +279,7 @@ header{
 .login .button1{
     background-color: white;
     padding: 14px 16px;
-    border-radius: 40%;
+    border-radius: 20px;
     border: transparent;
 }
 
@@ -251,7 +295,7 @@ header{
     border: transparent;
     background-color: white;
     padding: 14px 20px;
-    border-radius:40%;
+    border-radius: 20px;
 }
 
 .bottonihead .button2{
@@ -260,7 +304,7 @@ header{
     border: transparent;
     background-color: #23272a;
     padding: 14px 20px;
-    border-radius: 40%;
+    border-radius: 20px;
 
 }
 /*----------------------
@@ -278,11 +322,9 @@ main #sezione3{
 }
 
 main #sezione4{
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     padding-top: 160px;
     padding-bottom: 200px;
-    align-items: center;
 }
 
 #sezione1 .col1,
@@ -296,6 +338,15 @@ main #sezione4{
 #sezione3 .col2{
     width: 40%;
 }
+
+#sezione4 h3{
+    background-image: url(../img/stars.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+
 
 /*----------------------
         FOOTER         
@@ -321,7 +372,7 @@ footer{
     display: flex;
 }
 
-.footer-top .col2 > .colInt {
+.footer-top .col2 > .colint {
     width: 25%;
 }
 
@@ -330,13 +381,14 @@ footer{
     border-top: 1px solid white;
 }
 
-.footer-bottom > .container {
+.footer-bottom .container {
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.footer-bottom .logo,
-.footer-bottom .btn {
-    padding: 6px 14px;
+
+.footer-bottom .logo{
+    width: 20%;
 }
